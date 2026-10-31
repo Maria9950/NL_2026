@@ -1,0 +1,9 @@
+127.0.0.1 - frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
+192.168.1.15 - - [12/Mar/2024:08:14:02 +0300] "GET /index.html HTTP/1.1" 200 5120
+192.168.1.15 - - [12/Mar/2024:08:14:03 +0300] "GET /images/logo.png HTTP/1.1" 304 -
+10.0.0.7 - alice [12/Mar/2024:08:15:41 +0300] "POST /api/login HTTP/1.1" 200 412
+203.0.113.9 - - [12/Mar/2024:08:16:20 +0300] "GET /missing/page.html HTTP/1.1" 404 196
+2001:db8::1 - - [12/Mar/2024:08:17:05 +0300] "GET /docs/ HTTP/2.0" 200 8734
+this line is not a valid log record
+198.51.100.23 - - [12/Mar/2024:08:18:30 +0300] "GET /search?q=nim HTTP/1.1" 500 -
+203.0.113.5 - - [12/Mar/2024:08:19:11 +0300] "GET /about.html HTTP/1.1" 200 3011 "http://example.com/" "Mozilla/5.0"
